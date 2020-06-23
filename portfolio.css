@@ -1,0 +1,114 @@
+
+body {
+    background-color: #f5f7d9;
+background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.container{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.margin-left {
+  margin-left: 4% !important;
+  margin-top: 5%;
+}
+.navbar-brand {
+  background-color: teal;
+  margin-left: 5% !important;
+  padding: 20px !important;
+}
+.navbar {
+  padding: 0px !important;
+  border-bottom: 5px solid gray;
+ 
+}
+.name {
+  font-size: 28px !important;
+  font-weight: 600;
+  color: whitesmoke !important;
+}
+.picture-container1 {
+    height: 200px;
+    width: 350px;
+    background-image: url(images/wordguess.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 3%;
+    padding: 0 !important;
+  }
+.picture-container2 {
+  height: 200px;
+  width: 350px;
+  background-image: url(images/rpggame.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 3%;
+  padding: 0 !important;
+}
+.picture-container3 {
+    height: 200px;
+    width: 350px;
+    background-image: url(images/party-trivia-switch-screenshot03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 3%;
+    padding: 0 !important;
+  }
+  .picture-container4 {
+    height: 200px;
+    width: 350px;
+    background-image: url(images/technics-q-c-640-480-7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 3%;
+    padding: 0 !important;
+  }
+  .picture-container5 {
+    height: 200px;
+    width: 350px;
+    background-image: url(images/1200px-Rock-paper-scissors.svg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 3%;
+    padding: 0 !important;
+  }
+.text-container {
+  font-size: 22px;
+  width: 100%;
+  margin: 40% auto;
+  padding: 20px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+.portfolio {
+    font-size: 28px;
+    color: teal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+footer {
+    
+    bottom: 0;
+    background-color: grey;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    
+}
+.footerBorder {
+    border-width: 8px !important;
+    border-color: teal !important;
+}
+.portfolioContainer {
+    background-color: whitesmoke;
+}
+.portfolioBorder {
+    border-width: 2px !important;
+    border-color: gray !important;
+}
+i {
+    padding: 20px;
+    color: whitesmoke;
+    font-weight: 200 !important;
+}
