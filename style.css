@@ -29,7 +29,15 @@ min-height: 100%;
   font-weight: 600;
   color: whitesmoke !important;
 }
+.linkList {
+    margin-bottom: 20px !important;
+    font-size: 30px;
+    color: teal;
 
+}
+a {
+    color: teal;
+}
 .text-container {
   font-size: 22px;
   width: 100%;
