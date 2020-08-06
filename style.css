@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 body {
-    background-color: #f5f7d9;
+    background-color: #6E83CF;
 background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 display: flex;
@@ -15,13 +15,13 @@ min-height: 100%;
 }
 
 .navbar-brand {
-  background-color: teal;
+  background-color: #772871;
   margin-left: 5% !important;
   padding: 20px !important;
 }
 .navbar {
   padding: 0px !important;
-  border-bottom: 5px solid gray;
+  border-bottom: 5px solid #2F2267;
  
 }
 .name {
@@ -32,36 +32,34 @@ min-height: 100%;
 .linkList {
     margin-bottom: 20px !important;
     font-size: 30px;
-    color: teal;
+    
 
 }
-a {
-    color: teal;
-}
+
 .text-container {
   font-size: 22px;
   width: 100%;
   margin: 40% auto;
   padding: 20px;
   text-align: center;
-  background-color: teal;
+  background-color: #772871;
   color: white;
 }
 .portfolio {
     font-size: 40px;
-    color: teal;
+    color: #772871;
     font-weight: 600;
 }
 footer {
     margin-top: auto;
-    background-color: grey;
+    background-color: whitesmoke;
     width: 100%;
     height: 80px;
     text-align: center;
 }
 .footerBorder {
     border-width: 8px !important;
-    border-color: teal !important;
+    border-color: #772871 !important;
 }
 .portfolioContainer {
     background-color: whitesmoke;
@@ -76,7 +74,7 @@ i {
 
 .aboutMe {
     font-size: 28px;
-    color: teal;
+    
     font-weight: 700;
     margin-top: 20px;
 }
@@ -110,3 +108,20 @@ p {
       }
 
 }
+.portfolio-links {
+    font-size: 28px !important;
+    
+    color: #772871 !important;
+  }
+.portfolio-links:visited {
+    text-decoration: none;
+  }
+.copyright {
+    color: #772871;
+  }
+.navigation {
+    color: #772871 !important;
+  }
+.border-info {
+    border-color: #2F2267 !important;
+  }

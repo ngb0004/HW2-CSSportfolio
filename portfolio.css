@@ -2,12 +2,15 @@ html {
   height: 100%;
 }
 body {
-  background-color: #f5f7d9;
+  background-color: #6E83CF;
 background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 display: flex;
 flex-direction: column;
 min-height: 100%;
+}
+.border-info {
+  border-color: #2F2267 !important;
 }
 .container{
     margin-top: 3%;
@@ -19,13 +22,13 @@ min-height: 100%;
   margin-top: 5%;
 }
 .navbar-brand {
-  background-color: teal;
+  background-color: #772871;
   margin-left: 5% !important;
   padding: 20px !important;
 }
 .navbar {
   padding: 0px !important;
-  border-bottom: 5px solid gray;
+  border-bottom: 5px solid #2F2267;
  
 }
 .name {
@@ -36,7 +39,7 @@ min-height: 100%;
 .picture-container1 {
     height: 200px;
     width: 350px;
-    background-image: url(images/wordguess.png);
+    background-image: url(images/dogfinder.PNG);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 3%;
@@ -45,7 +48,7 @@ min-height: 100%;
 .picture-container2 {
   height: 200px;
   width: 350px;
-  background-image: url(images/rpggame.jpg);
+  background-image: url(images/workdayscheduler.PNG);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 3%;
@@ -54,7 +57,7 @@ min-height: 100%;
 .picture-container3 {
     height: 200px;
     width: 350px;
-    background-image: url(images/party-trivia-switch-screenshot03.jpg);
+    background-image: url(images/quizapp.PNG);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 3%;
@@ -82,34 +85,35 @@ min-height: 100%;
   font-size: 22px;
   width: 100%;
   margin: 40% auto;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  background-color: teal;
+  background-color: #772871;
   color: white;
+
 }
 .portfolio {
     font-size: 28px;
-    color: teal;
+    color: #772871;
     font-weight: 700;
     margin-top: 20px;
 }
 footer {
   margin-top: auto;
-  background-color: grey;
+  background-color: whitesmoke;
   width: 100%;
   height: 80px;
   text-align: center;
 }
 .footerBorder {
     border-width: 8px !important;
-    border-color: teal !important;
+    border-color: #2F2267 !important;
 }
 .portfolioContainer {
     background-color: whitesmoke;
 }
 .portfolioBorder {
     border-width: 2px !important;
-    border-color: gray !important;
+    border-color: #2F2267;
 }
 i {
     padding: 20px;
@@ -130,4 +134,18 @@ i {
         flex-flow: column;
     }
 
+}
+.portfolio-links {
+  font-size: 22px !important;
+  
+  color: whitesmoke !important;
+}
+.portfolio-links:visited {
+  text-decoration: none;
+}
+.copyright {
+  color: #772871;
+}
+.navigation {
+  color: #772871 !important;
 }
