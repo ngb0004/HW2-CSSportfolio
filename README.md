@@ -1,4 +1,4 @@
-# HW2-CSS Portfolio
+# Updated Portfolio
 
 I created an responsive CSS file that changes at 3 break points (980px, 768px, 640px)
 ## Description
